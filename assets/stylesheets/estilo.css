@@ -1,0 +1,73 @@
+body {
+  background: url("../images/cover_6.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.modal-content {
+  border-radius: 0px;
+}
+.btn {
+  border-radius: 0px;
+}
+#panel-seleccion .fecha-hora {
+  color: #fff;
+}
+#panel-seleccion .titulo,
+#panel-tipos .titulo,
+#panel-registro .titulo {
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: "Quicksand";
+}
+#panel-registro label {
+  color: #fff;
+  font-family: "Quicksand";
+  font-size: 18px;
+}
+#panel-registro .form-control {
+  margin-bottom: 12px;
+  border-radius: 0px;
+  height: 40px;
+}
+#panel-tipos select {
+  font-size: 40px;
+  padding: 5px 14px;
+}
+#panel-tipos select option {
+  padding: 5px 14px;
+}
+.btn-siguiente,
+#btn-verificar {
+  background-color: #fe9e54;
+  border: #fed9bc;
+  color: #fff;
+  padding: 10px 24px;
+}
+.btn-siguiente:hover,
+#btn-verificar:hover {
+  color: #fff;
+  background-color: #fd892f;
+}
+ul.tagit {
+  background: #fff;
+  min-height: 40px;
+}
+ul.tagit li.tagit-choice {
+  background: #fe9e54;
+}
+ul.tagit li.tagit-choice .tagit-label:not(a) {
+  color: #fff;
+}
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+  color: #fff;
+}
+ul.tagit li.tagit-choice:hover,
+ul.tagit li.tagit-choice.remove {
+  background-color: #fd892f;
+  border-color: #fd892f;
+}
