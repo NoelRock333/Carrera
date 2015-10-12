@@ -71,8 +71,6 @@
 					<h2 class="titulo">Formulario de registro</h2>
 				</div>
 				<div class="col-md-4">
-					Enfermedades
-					Alergias
 					<div class="edit-field">
 						<label for="">Nombre</label>
 						<input type="text" class="form-control" name="nombre" id="nombre">
